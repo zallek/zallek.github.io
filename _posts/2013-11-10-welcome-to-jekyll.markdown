@@ -1,29 +1,16 @@
 ---
-title:  "Welcome to Jekyll!"
-date:   2013-11-10 10:18:00
-description: Thriller Comedy Horror
-length:	1 min
-tags:	Introduction
+title:  "Welcome on my blog"
+date:   2015-11-10 18:00:00
+description: Hope you find something interesting to read.
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Hi, I am Nicolas, a web developper.
 
-Jekyll also offers powerful support for code snippets:
+I've create this blog to share with you some thoughts, problems and ideas about what I'm working on. I'm currently working at [Botify](www.botify.com), as a Front End Javascript developper. So there will be posts about what we do at Botify to develop and improve its SaaS application but also about expirements I'm working on on side projects. 
 
-{% highlight javascript %}
-class Test {
-  constructor(params) {
-    super(params);
-  }
-  addListener() {
-    //do it
-  }
-}
-const test = new Test();
-{% endhighlight %}
+I'm pationnate about the web and how it allows people to build from scratch things that may be use by everybody or every company around the world to make its life easier and maybe a bit better. The web brings new problematics like scalibity, internationnalization, extended social networks.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+I'm might talk about setting up developpement environment, about ways to develop web applications. Always with the foolowing base line in mind:
+> Why are we doing this? How could we do it faster and better. 
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+I hope that in an early future, you find something interesting to read here and maybe debate about it; because we, web players, might don't have the same idea about how we should build the technologies that power the web, how we should use them and how we should work to create stuff and business.
