@@ -71,7 +71,7 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 600px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -110,42 +110,43 @@ h2 {
 
 nav.main-nav {
 	padding: 20px 20px 0;
-
-	/*max-width: 600px;*/
-	/*width:100%;*/
 	background: #fff;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
 	z-index: 100;
 }
 
 nav.main-nav a {
-	top: 8px;
-	right: 6px;
-	padding: 8px 12px;
+	padding: 8px 0px;
 	color: #5badf0;
 	font-size: 13px;
-	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
-
+	display: inline-block;
+    text-align: center;
 }
-nav.main-nav a.cta {
-	background: #5badf0;
-	color: #fff;
-	margin-left: 12px;
+nav.main-nav a.home {
+	width: 60px;
+}
+nav.main-nav a.bookmarks {
+	width: 90px;
+}
+nav.main-nav a.about {
+	width: 60px;
+}
+nav.main-nav a.active {
+	font-weight: 600;
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
@@ -254,8 +255,15 @@ em, i { font-style: italic; }
 #post-list h2 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #aaa;
-	max-width: 400px;
+	max-width: 700px;
 	margin-top: 2px;
+}
+
+#post-list h2.url {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 900px;
 }
 
 h3, h4, h5 { color:#333; }

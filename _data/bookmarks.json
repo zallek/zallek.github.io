@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Javascript event loop and workers explained",
+    "url": "http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/"
+  },
+  {
+    "title": "What's new with NodeJS v4.0",
+    "url": "http://apmblog.dynatrace.com/2015/09/05/all-you-need-to-know-about-node-js-4-0/"
+  },
+  {
+  	"title": "ES6 makes Javascript a lot better",
+  	"url": "http://babeljs.io/docs/learn-es2015/"
+  },
+  {
+  	"title": "Isomorphic web apps",
+  	"url": "http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/",
+  },
+  {
+  	"title": "Javascript Patterns",
+  	"url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+  }
+]

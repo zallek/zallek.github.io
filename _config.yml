@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Nicolas Fortin
+description: Experiment. Inovate. Go further.
+meta_description: "Nicolas Fortin. Blog Web Developper"
 
 aboutPage: true
 
@@ -9,15 +9,29 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'zallek.gitgub.io'
 google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus: true
+disqus_shortname: 'zallek'
+
+nav:
+    -
+        title: Home
+        id: home
+        url: ""
+    -
+        title: Bookmarks
+        id: bookmarks
+        url: bookmarks/
+    -
+        title: About
+        id: about
+        url: about/
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'https://zallek.gitgub.io'
+author:         'Nicolas Fortin'
+authorTwitter:  'nicolas_for'
 
 permalink:       /:year/:title/
 

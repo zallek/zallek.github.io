@@ -1,0 +1,14 @@
+<ul id="post-list">
+    {% for bookmark in site.data.bookmarks %}
+        <li>
+            <a href="{{ bookmark.url }}">
+            	{{ bookmark.title }}
+            	<h2 class="url">{{ bookmark.url }}</h2>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+
+{% if paginator.previous_page or paginator.next_page %}
+    {% include pagination.html %}
+{% endif %}
