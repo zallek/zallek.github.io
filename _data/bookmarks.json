@@ -2,7 +2,7 @@
   {
     "title": "Distributing a library with wabpack",
     "url": "https://webpack.github.io/docs/library-and-externals.html"
-  }
+  },
   {
     "title": "Javascript event loop and workers explained",
     "url": "http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/"
